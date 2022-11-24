@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/IU</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>11:11</span>
+      </div>
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt-lightning"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">IU</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-2x"></i></span>
+        <span><i class="fas fa-bars fa-2x"></i></span>
+      </div>
+    </header>
+    <main class="main-screen chat">
+      <div class="chat__timestamp">Wednesday, 23 November, 2022</div>
+      <div class="message-row">
+        <img
+          class="user-component__avatar--xl message-row-image"
+          src="https://w.namu.la/s/59bbf73b123d0f9f693be3c3de9506b24a1f2a3067b4ffd0207a3a08eee32d750ebf1ca3e33084aa3bbcd6916bd0a8a187cc4556b87fa269c25f1a7ff3ea279f1e372d23aa0a6eee8d5932c70d5dac0e2b24d584c0b81c97b692f9b99aa395d13efb8f385bdee501c1cb9b8599e19f1e"
+        />
+        <div class="message-row__content">
+          <span class="message-row__name">IU</span>
+          <div class="message__info">
+            <div class="message-row__message">Hi!</div>
+            <span class="message-row__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <div class="message-row__message">What's up?</div>
+            <span class="message-row__time">21:44</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply-column">
+        <i class="fa-solid fa-square-plus fa-lg"></i>
+      </div>
+      <div class="reply-column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-solid fa-face-smile-wink"></i>
+        <button class="reply-arrow">
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+    <div class="mobile-screen">모바일 화면에 최적화되어있습니다 :)</div>
+    <script
+      src="https://kit.fontawesome.com/d18628dd01.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
